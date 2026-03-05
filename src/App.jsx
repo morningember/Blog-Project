@@ -1,11 +1,12 @@
-import { useState } from "react";
 import "./App.css";
-import MainLayout from "./components/MainLayout";
+import Homepage from "./pages/Homepage";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <MainLayout></MainLayout>;
+  return (
+    <div className="font-[Open sans] font-sans">
+      <Homepage />
+    </div>
+  );
 }
 
 export default App;
